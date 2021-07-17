@@ -1,0 +1,154 @@
+html,body, .main-container{
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.top-container{
+    height: 60px;
+    width: 100%;
+    
+}
+
+.image-container{
+    height: 290px;
+    width: 100%;
+    
+}
+
+.search-bar-container{
+    height: 80px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.search-buttons-container{
+    height: 387px;
+    width: 100%;
+}
+
+.footer-container{
+    height: 46px;
+    width: 100%;
+    border-top: 1px solid #dadce0;
+    color:rgb(112, 117, 122);
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    background-color: rgb(242, 242, 242);
+}
+
+#google-logo{
+    display: block;
+    width: 272px;
+    height: 92px;
+    margin-left: auto;
+    margin-top: 196px;
+    margin-right: auto;
+}
+
+#hamburger-logo{
+    height: auto; 
+    width: auto; 
+    width: 16px; 
+    height: 16px;
+    padding-left: 25px;
+    padding-right: 12px;
+    vertical-align: middle;
+    cursor: pointer;
+
+}
+
+#profile-logo{
+    width: 32px; 
+    height: 32px;
+    border-radius:50%;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+.search-bar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 540px;
+    height:43px;
+    border-radius: 30px;
+    border-color:rgba(0, 0, 0, 0.87);
+    border: 1px solid #dfe1e5;
+    padding-left:35px;
+    background: url('images/search.png') no-repeat 7px;
+    
+}
+.search-bar:focus, .search-bar:hover{
+        outline: none;
+        background-color: #fff;
+        box-shadow: 0 1px 6px rgba(32,33,36,.28);
+        border-color: rgba(223,225,229,0);
+}
+
+.nav-top-right{
+    float: right;
+    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    text-align: center;
+    line-height: 60px;
+    padding-right: 12px;
+}
+a { 
+    color: inherit; 
+    text-decoration: none;
+    padding-left: 15px;
+    
+} 
+#main-search-button, #feeling-lucky-button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    cursor: pointer;
+}
+#main-search-button:hover, #feeling-lucky-button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+#images, #gmail{
+    padding-right:5px;
+    padding-left: 12px;
+    vertical-align: middle;
+    font-size:12px;
+}
+
+#images:hover, #gmail:hover, 
+#about:hover,#commercial:hover,
+#business:hover, #how-search-works:hover,
+#privacy:hover, #conditions:hover,
+#settings:hover{
+    text-decoration: underline;
+}
+.footer-left{
+    float:left;
+    line-height: 46px;
+    padding-left: 20px;
+    
+}
+.footer-right{
+    float:right;
+    line-height: 46px; 
+    padding-right: 20px;
+}
